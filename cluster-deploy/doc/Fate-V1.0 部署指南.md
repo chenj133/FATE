@@ -177,7 +177,7 @@ sh install_mysql.sh
 
 **在192.168.0.1 app用户下执行**
 
-\$/data/projects/common/mysql/mysql-8.0.13/bin/mysql -uroot -p –S
+\$/data/projects/common/mysql/mysql-8.0.13/bin/mysql -uroot -p -S
 /data/projects/common/mysql/mysql-8.0.13/mysql.sock
 
 Enter password:(please input the original password)
@@ -196,7 +196,7 @@ Enter password:(please input the original password)
 
 **在192.168.0.2 app用户下执行**
 
-\$/data/projects/common/mysql/mysql-8.0.13/bin/mysql -uroot -p –S
+\$/data/projects/common/mysql/mysql-8.0.13/bin/mysql -uroot -p -S
 /data/projects/common/mysql/mysql-8.0.13/mysql.sock
 
 Enter password:(please input the original password)
@@ -419,7 +419,7 @@ JDBC1=(192.168.0.2 eggroll_meta fate_dev fate_dev)
 
 fateflowdb0=(192.168.0.1 fate_flow fate_dev fate_dev)
 
-fateflowdb1=(192.168.0.1 fate_flow fate_dev fate_dev)
+fateflowdb1=(192.168.0.2 fate_flow fate_dev fate_dev)
 
 iplist=(192.168.0.1 192.168.0.2)
 
